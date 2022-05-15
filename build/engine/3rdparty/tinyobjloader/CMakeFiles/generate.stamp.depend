@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/GNUInstallDirs.cmake
+C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.20/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/CMakeFiles/cmake.verify_globs
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/tinyobjloader/CMakeLists.txt
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/tinyobjloader/cmake_uninstall.cmake.in
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/tinyobjloader/tinyobjloader-config.cmake.in
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/tinyobjloader/tinyobjloader.pc.in

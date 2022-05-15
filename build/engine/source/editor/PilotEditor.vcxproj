@@ -1,0 +1,468 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{38F93E82-C93A-3C05-84B7-0F9E66466CE3}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.20348.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>PilotEditor</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\editor\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PilotEditor.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">PilotEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\editor\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PilotEditor.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">PilotEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\editor\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PilotEditor.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">PilotEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\editor\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PilotEditor.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">PilotEditor</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;PILOT_VK_LAYER_PATH=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/VulkanSDK/bin/Win32;PILOT_ROOT_DIR=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;PILOT_VK_LAYER_PATH=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/VulkanSDK/bin/Win32;PILOT_ROOT_DIR=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/PilotEditor.ini C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/editor/resource C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin//resource
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/Debug/ C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E remove_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine//asset C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\runtime\Debug\PilotRuntime.lib;..\..\3rdparty\spdlog\Debug\spdlogd.lib;..\..\3rdparty\tinyobjloader\Debug\tinyobjloader.lib;..\..\3rdparty\Debug\imgui.lib;..\..\3rdparty\glfw\src\Debug\glfw3.lib;..\..\..\..\engine\3rdparty\VulkanSDK\lib\Win32\vulkan-1.lib;..\runtime\Debug\json11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/Debug/PilotEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/Debug/PilotEditor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PILOT_VK_LAYER_PATH=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/VulkanSDK/bin/Win32;PILOT_ROOT_DIR=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PILOT_VK_LAYER_PATH=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/VulkanSDK/bin/Win32;PILOT_ROOT_DIR=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/PilotEditor.ini C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/editor/resource C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin//resource
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/Release/ C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E remove_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine//asset C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\runtime\Release\PilotRuntime.lib;..\..\3rdparty\spdlog\Release\spdlog.lib;..\..\3rdparty\tinyobjloader\Release\tinyobjloader.lib;..\..\3rdparty\Release\imgui.lib;..\..\3rdparty\glfw\src\Release\glfw3.lib;..\..\..\..\engine\3rdparty\VulkanSDK\lib\Win32\vulkan-1.lib;..\runtime\Release\json11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/Release/PilotEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/Release/PilotEditor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PILOT_VK_LAYER_PATH=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/VulkanSDK/bin/Win32;PILOT_ROOT_DIR=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PILOT_VK_LAYER_PATH=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/VulkanSDK/bin/Win32;PILOT_ROOT_DIR=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/PilotEditor.ini C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/editor/resource C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin//resource
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/MinSizeRel/ C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E remove_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine//asset C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\runtime\MinSizeRel\PilotRuntime.lib;..\..\3rdparty\spdlog\MinSizeRel\spdlog.lib;..\..\3rdparty\tinyobjloader\MinSizeRel\tinyobjloader.lib;..\..\3rdparty\MinSizeRel\imgui.lib;..\..\3rdparty\glfw\src\MinSizeRel\glfw3.lib;..\..\..\..\engine\3rdparty\VulkanSDK\lib\Win32\vulkan-1.lib;..\runtime\MinSizeRel\json11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/MinSizeRel/PilotEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/MinSizeRel/PilotEditor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ConformanceMode>true</ConformanceMode>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatWarningAsError>false</TreatWarningAsError>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PILOT_VK_LAYER_PATH=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/VulkanSDK/bin/Win32;PILOT_ROOT_DIR=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PILOT_VK_LAYER_PATH=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/VulkanSDK/bin/Win32;PILOT_ROOT_DIR=C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/;SPDLOG_COMPILED_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\VulkanSDK\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\generated\cpp;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\vulkanmemoryallocator\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\spdlog\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glm\glm\..;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\glfw\include;C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\imgui;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E make_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/PilotEditor.ini C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/editor/resource C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin//resource
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/RelWithDebInfo/ C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin/
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E remove_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy_directory C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine//asset C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/bin///asset
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\runtime\RelWithDebInfo\PilotRuntime.lib;..\..\3rdparty\spdlog\RelWithDebInfo\spdlog.lib;..\..\3rdparty\tinyobjloader\RelWithDebInfo\tinyobjloader.lib;..\..\3rdparty\RelWithDebInfo\imgui.lib;..\..\3rdparty\glfw\src\RelWithDebInfo\glfw3.lib;..\..\..\..\engine\3rdparty\VulkanSDK\lib\Win32\vulkan-1.lib;..\runtime\RelWithDebInfo\json11.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/RelWithDebInfo/PilotEditor.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/RelWithDebInfo/PilotEditor.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering -BC:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build --check-stamp-file C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering -BC:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build --check-stamp-file C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering -BC:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build --check-stamp-file C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/editor/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering -BC:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build --check-stamp-file C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/engine/source/editor/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\editor\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\include\axis.h" />
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\include\editor.h" />
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\include\editor_file_service.h" />
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\include\editor_ui.h" />
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\axis.cpp" />
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\editor.cpp" />
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\editor_file_service.cpp" />
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\editor_ui.cpp" />
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\main.cpp" />
+    <ResourceCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\resource\PilotEditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\ZERO_CHECK.vcxproj">
+      <Project>{09D811C2-69C3-35BB-95D0-7AA1050E6FF5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\runtime\PilotRuntime.vcxproj">
+      <Project>{26890DC6-B059-3CBA-A28A-AFADA6934B1B}</Project>
+      <Name>PilotRuntime</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\3rdparty\glfw\src\glfw.vcxproj">
+      <Project>{1429AD2D-D582-3592-B46E-8FCC445A58C1}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\3rdparty\imgui.vcxproj">
+      <Project>{FA399142-2ED2-3D2D-8E50-5FC7875F47FD}</Project>
+      <Name>imgui</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\source\runtime\json11.vcxproj">
+      <Project>{7F0E1699-D83E-3FDE-9B3B-1142C88CFDB0}</Project>
+      <Name>json11</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\3rdparty\spdlog\spdlog.vcxproj">
+      <Project>{719D54AD-FF02-3553-A279-3CC5AB932933}</Project>
+      <Name>spdlog</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\3rdparty\stb.vcxproj">
+      <Project>{80F287E3-4363-3652-A868-6B1DC692659C}</Project>
+      <Name>stb</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\3rdparty\tinyobjloader\tinyobjloader.vcxproj">
+      <Project>{C5293C95-F591-388E-A44A-90141DE42924}</Project>
+      <Name>tinyobjloader</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

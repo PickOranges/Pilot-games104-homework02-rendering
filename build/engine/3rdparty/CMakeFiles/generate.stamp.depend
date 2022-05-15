@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/CMakeFiles/cmake.verify_globs
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/CMakeLists.txt
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/imgui.cmake
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/3rdparty/stb.cmake

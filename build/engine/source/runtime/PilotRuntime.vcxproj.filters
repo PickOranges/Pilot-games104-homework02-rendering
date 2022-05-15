@@ -1,0 +1,671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\log\log_system.cpp">
+      <Filter>core\log</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\axis_aligned.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\math.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\matrix3.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\matrix4.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\quaternion.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\vector2.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\vector3.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\vector4.cpp">
+      <Filter>core\math</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\meta\meta_example.cpp">
+      <Filter>core\meta</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\meta\reflection\reflection.cpp">
+      <Filter>core\meta\reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\meta\reflection\reflection_register.cpp">
+      <Filter>core\meta\reflection</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\meta\serializer\serializer.cpp">
+      <Filter>core\meta\serializer</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\engine.cpp" />
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\animation_loader.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\animation_system.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\node.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\skeleton.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\utilities.cpp">
+      <Filter>function\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\character\character.cpp">
+      <Filter>function\character</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\controller\character_controller.cpp">
+      <Filter>function\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\animation\animation_component.cpp">
+      <Filter>function\framework\component\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\camera\camera_component.cpp">
+      <Filter>function\framework\component\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\mesh\mesh_component.cpp">
+      <Filter>function\framework\component\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\motor\motor_component.cpp">
+      <Filter>function\framework\component\motor</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\rigidbody\rigidbody_component.cpp">
+      <Filter>function\framework\component\rigidbody</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\transform\transform_component.cpp">
+      <Filter>function\framework\component\transform</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\level\level.cpp">
+      <Filter>function\framework\level</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\object\object.cpp">
+      <Filter>function\framework\object</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\world\world_manager.cpp">
+      <Filter>function\framework\world</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\input\input_system.cpp">
+      <Filter>function\input</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\collision_detection.cpp">
+      <Filter>function\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\physics_actor.cpp">
+      <Filter>function\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\physics_system.cpp">
+      <Filter>function\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\ray.cpp">
+      <Filter>function\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\render.cpp">
+      <Filter>function\render\source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\surface.cpp">
+      <Filter>function\render\source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\surface_rhi.cpp">
+      <Filter>function\render\source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\surface_ui.cpp">
+      <Filter>function\render\source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\context\vulkan_context.cpp">
+      <Filter>function\render\source\vulkan_manager\context</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\misc\command_buffer.cpp">
+      <Filter>function\render\source\vulkan_manager\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\misc\descriptor_pool.cpp">
+      <Filter>function\render\source\vulkan_manager\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\misc\image.cpp">
+      <Filter>function\render\source\vulkan_manager\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\misc\misc.cpp">
+      <Filter>function\render\source\vulkan_manager\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\misc\setup.cpp">
+      <Filter>function\render\source\vulkan_manager\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\misc\swapchain.cpp">
+      <Filter>function\render\source\vulkan_manager\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\misc\sync_primitives.cpp">
+      <Filter>function\render\source\vulkan_manager\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\misc\upload.cpp">
+      <Filter>function\render\source\vulkan_manager\misc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\color_grading.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\combine_ui.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\directional_light_shadow.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\main_camera.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\pick.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\point_light_shadow.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\render_passes.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\stecil_outline.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\tone_mapping.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\ui.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\passes\vulkan_render_pass.cpp">
+      <Filter>function\render\source\vulkan_manager\passes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\sync\culling.cpp">
+      <Filter>function\render\source\vulkan_manager\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\sync\material.cpp">
+      <Filter>function\render\source\vulkan_manager\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\sync\mesh.cpp">
+      <Filter>function\render\source\vulkan_manager\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\sync\scene.cpp">
+      <Filter>function\render\source\vulkan_manager\sync</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\ui_interface\editor.cpp">
+      <Filter>function\render\source\vulkan_manager\ui_interface</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\util\vulkan_util.cpp">
+      <Filter>function\render\source\vulkan_manager\util</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\vma.cpp">
+      <Filter>function\render\source\vulkan_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\vulkan_global_resource.cpp">
+      <Filter>function\render\source\vulkan_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\source\vulkan_manager\vulkan_manager.cpp">
+      <Filter>function\render\source\vulkan_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\scene\scene_manager.cpp">
+      <Filter>function\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\ui\ui_system.cpp">
+      <Filter>function\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\platform\file_service\file_service.cpp">
+      <Filter>platform\file_service</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\platform\path\path.cpp">
+      <Filter>platform\path</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\asset_manager\asset_manager.cpp">
+      <Filter>resource\asset_manager</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\config_manager\config_manager.cpp">
+      <Filter>resource\config_manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\base\macro.h">
+      <Filter>core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\base\public_singleton.h">
+      <Filter>core\base</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\color\color.h">
+      <Filter>core\color</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\log\log_system.h">
+      <Filter>core\log</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\axis_aligned.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\math.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\math_headers.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\math_marcos.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\matrix3.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\matrix4.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\quaternion.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\random.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\transform.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\vector2.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\vector3.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\math\vector4.h">
+      <Filter>core\math</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\meta\json.h">
+      <Filter>core\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\meta\meta_example.h">
+      <Filter>core\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\meta\reflection\reflection.h">
+      <Filter>core\meta\reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\meta\reflection\reflection_register.h">
+      <Filter>core\meta\reflection</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\core\meta\serializer\serializer.h">
+      <Filter>core\meta\serializer</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\engine.h" />
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\animation_loader.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\animation_system.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\node.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\skeleton.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\animation\utilities.h">
+      <Filter>function\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\character\character.h">
+      <Filter>function\character</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\controller\character_controller.h">
+      <Filter>function\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\animation\animation_component.h">
+      <Filter>function\framework\component\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\camera\camera_component.h">
+      <Filter>function\framework\component\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\component.h">
+      <Filter>function\framework\component</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\mesh\mesh_component.h">
+      <Filter>function\framework\component\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\mesh\raw_mesh.h">
+      <Filter>function\framework\component\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\motor\motor_component.h">
+      <Filter>function\framework\component\motor</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\rigidbody\rigidbody_component.h">
+      <Filter>function\framework\component\rigidbody</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\component\transform\transform_component.h">
+      <Filter>function\framework\component\transform</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\level\level.h">
+      <Filter>function\framework\level</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\object\object.h">
+      <Filter>function\framework\object</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\framework\world\world_manager.h">
+      <Filter>function\framework\world</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\input\input_system.h">
+      <Filter>function\input</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\collision_detection.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\physics_aabb_shape.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\physics_actor.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\physics_obb_shape.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\physics_shape_base.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\physics_sphere_shape.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\physics_system.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\physics\ray.h">
+      <Filter>function\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\framebuffer.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\glm_wrapper.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\light.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\material.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\render.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\render_camera.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\render_mesh.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\resource_handle.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\surface.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\surface_io.h">
+      <Filter>function\render\include\render</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_common.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_context.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_directional_light_pass.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_global_resource.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_manager.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_mesh.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_misc.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_passes.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_pick_pass.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_point_light_pass.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_render_pass.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\render\include\render\vulkan_manager\vulkan_util.h">
+      <Filter>function\render\include\render\vulkan_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\scene\scene_allocator.h">
+      <Filter>function\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\scene\scene_manager.h">
+      <Filter>function\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\scene\scene_object.h">
+      <Filter>function\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\function\ui\ui_system.h">
+      <Filter>function\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\platform\file_service\file_service.h">
+      <Filter>platform\file_service</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\platform\path\path.h">
+      <Filter>platform\path</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\asset_manager\asset_manager.h">
+      <Filter>resource\asset_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\config_manager\config_manager.h">
+      <Filter>resource\config_manager</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\common\level.h">
+      <Filter>resource\res_type\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\common\object.h">
+      <Filter>resource\res_type\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\common\world.h">
+      <Filter>resource\res_type\common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\components\animation.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\components\camera.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\components\mesh.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\components\motor.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\components\rigid_body.h">
+      <Filter>resource\res_type\components</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\data\animation_clip.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\data\animation_skeleton_node_map.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\data\basic_shape.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\data\blend_state.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\data\camera_config.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\data\material.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\data\mesh_data.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\data\skeleton_data.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\data\skeleton_mask.h">
+      <Filter>resource\res_type\data</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\resource\res_type\global\global_rendering.h">
+      <Filter>resource\res_type\global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{28323875-5B65-3682-9146-9ADDF464AEA9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\base">
+      <UniqueIdentifier>{DC0C7055-A0DC-39D8-A312-615772282403}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\color">
+      <UniqueIdentifier>{409FCEC3-7BEB-359A-996A-C78D08FF2974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\log">
+      <UniqueIdentifier>{FC088E0C-E9E0-3433-9B66-8F9EE1EF13B5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\math">
+      <UniqueIdentifier>{4E746877-D0DA-34BC-884D-C9B0C395278A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\meta">
+      <UniqueIdentifier>{509BA59C-A05A-3DAE-8CA7-474A2450AF51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\meta\reflection">
+      <UniqueIdentifier>{F07464C6-B2AE-31F8-8A64-C109B2BF0CD3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\meta\serializer">
+      <UniqueIdentifier>{49C80C92-57A5-326A-9667-E250CDB76F39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function">
+      <UniqueIdentifier>{5A6CFF09-E451-3FED-A16D-5BFDED9A8EE4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\animation">
+      <UniqueIdentifier>{CDDE6AE4-2392-3758-89D1-CFEEBBAF2A01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\character">
+      <UniqueIdentifier>{6CA83514-9134-389C-BEA7-E2BCEDF65C52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\controller">
+      <UniqueIdentifier>{0AF4A253-C622-3A68-A685-7A4FFCB6B3C7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework">
+      <UniqueIdentifier>{38156B29-B0D4-34AF-B1AB-488C3EBF5000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component">
+      <UniqueIdentifier>{217CF681-5B13-3985-BC92-550DAB689A72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\animation">
+      <UniqueIdentifier>{F7A74CF1-270E-3940-9F19-293FFF292AE7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\camera">
+      <UniqueIdentifier>{C6749E57-DC06-3FDF-804E-24E4CC61B1D5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\mesh">
+      <UniqueIdentifier>{9FC9D756-A59E-3BEB-8969-6035095A55A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\motor">
+      <UniqueIdentifier>{7CD42773-1F93-361A-82D3-15256DC5E4AE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\rigidbody">
+      <UniqueIdentifier>{1BD74F09-167C-377A-8021-02A3A9BE25F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\component\transform">
+      <UniqueIdentifier>{054A9ECB-20A1-344E-9045-5A9AFB9A1706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\level">
+      <UniqueIdentifier>{570A373E-6000-39FA-8B94-9AEB68176D15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\object">
+      <UniqueIdentifier>{469E960F-CA46-3C3D-BD58-17FCB85AA694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\framework\world">
+      <UniqueIdentifier>{89B9C633-BB84-30E1-80E2-D630418ACA5C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\input">
+      <UniqueIdentifier>{E376E45C-BC1B-32B9-8F0E-D1388BDC4F2E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\physics">
+      <UniqueIdentifier>{EB050DF2-C65F-34C2-9509-928B5EA15702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render">
+      <UniqueIdentifier>{6FC1ED17-E1EA-34F1-A17A-DE0455B0E237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\include">
+      <UniqueIdentifier>{5817DB3E-A2A3-37F5-BEC3-A0FADF2984C4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\include\render">
+      <UniqueIdentifier>{841CAEC7-94A4-3BD5-8175-0E089442ACAA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\include\render\vulkan_manager">
+      <UniqueIdentifier>{8012FA19-1395-3326-965A-D5321580C4AD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\source">
+      <UniqueIdentifier>{999310F1-9DA5-3CA9-8D55-46842B18C017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\source\vulkan_manager">
+      <UniqueIdentifier>{C0812C0D-AC99-3B59-BECF-5CB5310BBE10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\source\vulkan_manager\context">
+      <UniqueIdentifier>{39BE77A6-B673-321E-8F69-BF07198324FB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\source\vulkan_manager\misc">
+      <UniqueIdentifier>{63BD7849-5F3D-33A1-A19C-02CADDF39ABC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\source\vulkan_manager\passes">
+      <UniqueIdentifier>{827E0AD6-9EBF-3B81-B376-9BC916F32DBF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\source\vulkan_manager\sync">
+      <UniqueIdentifier>{B1F03838-0076-31EF-BEE8-3FB0A112A7A0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\source\vulkan_manager\ui_interface">
+      <UniqueIdentifier>{3DDAB298-BCCC-3CA7-B5FB-EF4604F4A074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\render\source\vulkan_manager\util">
+      <UniqueIdentifier>{6B370202-6B7C-34A0-A25A-24653DCE2B1D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\scene">
+      <UniqueIdentifier>{050B5AE2-3E96-3286-8727-ADFDCF640568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="function\ui">
+      <UniqueIdentifier>{B38DFE32-ACE9-3881-A846-15620CFEBE72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform">
+      <UniqueIdentifier>{9EF7981A-AF7D-3CFE-B53B-B815C00D4235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\file_service">
+      <UniqueIdentifier>{FF94C847-F13B-3807-B385-77A95257F06A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="platform\path">
+      <UniqueIdentifier>{FA4EFEE4-B4C6-3E46-981F-D350783F353B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{0CB84B3F-F595-320C-9B07-214E86C49611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\asset_manager">
+      <UniqueIdentifier>{0B1E4FEF-010E-38E3-9A01-22512BAAA97E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\config_manager">
+      <UniqueIdentifier>{B4F155B1-9FFE-3060-8A01-E7AC79E10BDE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type">
+      <UniqueIdentifier>{63AA70ED-354E-3348-981F-DE092F47301C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type\common">
+      <UniqueIdentifier>{15D43661-1517-3C3A-A9C5-2A8431B6BCB9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type\components">
+      <UniqueIdentifier>{35FCE754-B185-3B85-9593-141F2A046308}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type\data">
+      <UniqueIdentifier>{E9C68939-B22E-33AD-AD84-6A8B3DDE1D1E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res_type\global">
+      <UniqueIdentifier>{3856A6AB-5CA5-34C6-91AE-3C011084CE51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

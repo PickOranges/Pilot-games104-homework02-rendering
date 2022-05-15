@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/build/CMakeFiles/cmake.verify_globs
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/CMakeLists.txt
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/precompile/precompile.cmake
+C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/source/precompile/precompile.json.in

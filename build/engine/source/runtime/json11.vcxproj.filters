@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\3rdparty\json11\json11.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\runtime\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{757442DF-42D3-35CF-B9B4-1C311FC8E4E6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

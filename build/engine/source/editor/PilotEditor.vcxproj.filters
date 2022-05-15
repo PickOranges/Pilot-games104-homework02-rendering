@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\axis.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\editor.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\editor_file_service.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\editor_ui.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\source\main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\include\axis.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\include\editor.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\include\editor_file_service.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\include\editor_ui.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\source\editor\resource\PilotEditor.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{15FADC2B-6427-3CBC-B06C-BA9B04778312}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{0CB84B3F-F595-320C-9B07-214E86C49611}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{621ED7FB-0F82-3130-BA1C-783B7C4E6F24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

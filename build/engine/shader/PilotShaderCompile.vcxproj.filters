@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\axis.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\axis_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\axis.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\axis_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\color_grading.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\color_grading_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\combine_ui.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\combine_ui_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\deferred_lighting.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\deferred_lighting_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\deferred_lighting.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\deferred_lighting_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh_directional_light_shadow.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_directional_light_shadow_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh_directional_light_shadow.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_directional_light_shadow_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh_gbuffer.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_gbuffer_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh_inefficient_pick.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_inefficient_pick_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh_inefficient_pick.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_inefficient_pick_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh_point_light_shadow.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_point_light_shadow_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh_point_light_shadow.geom.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_point_light_shadow_geom.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh_point_light_shadow.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_point_light_shadow_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\mesh.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\mesh_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\particlebillboard.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\particlebillboard_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\particlebillboard.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\particlebillboard_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\post_process.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\post_process_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\skybox.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\skybox_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\skybox.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\skybox_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\stencil_scale.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\stencil_scale_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\stencil_solid.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\stencil_solid_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\tone_mapping.frag.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\tone_mapping_frag.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\dddf2ab53f5549f876646fe92fcb1f1f\PilotShaderCompile.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\axis.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\axis.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\color_grading.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\combine_ui.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\deferred_lighting.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\deferred_lighting.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh_directional_light_shadow.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh_directional_light_shadow.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh_gbuffer.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh_inefficient_pick.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh_inefficient_pick.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh_point_light_shadow.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh_point_light_shadow.geom">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\mesh_point_light_shadow.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\particlebillboard.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\particlebillboard.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\post_process.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\skybox.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\skybox.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\stencil_scale.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\stencil_solid.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\tone_mapping.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\engine\shader\CMakeFiles\PilotShaderCompile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4E4117AF-CBA4-3538-867F-AED3CE645FFA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{D4DEFACE-0DB6-372E-945F-2EA5E110CFAC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
