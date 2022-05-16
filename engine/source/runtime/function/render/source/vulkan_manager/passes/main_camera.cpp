@@ -19,6 +19,12 @@
 #include <skybox_frag.h>
 #include <skybox_vert.h>
 
+// big orange
+#include <stencil_scale_frag.h>
+#include <stencil_scale_vert.h>
+#include <stencil_solid_frag.h>
+#include <stencil_solid_vert.h>
+
 namespace Pilot
 {
     void PMainCameraPass::initialize()
@@ -273,6 +279,50 @@ namespace Pilot
         color_grading_pass.preserveAttachmentCount = 0;
         color_grading_pass.pPreserveAttachments    = NULL;
 
+
+
+
+
+
+
+
+
+
+
+        // big orange
+        VkSubpassDescription& stencil_outline_pass = subpasses[_main_camera_subpass_stencil_outline];
+        stencil_outline_pass.pipelineBindPoint = VK_PIPELINE_BIND_POINT_GRAPHICS;
+        stencil_outline_pass.inputAttachmentCount = 1;
+        stencil_outline_pass.pInputAttachments = NULL;
+        stencil_outline_pass.colorAttachmentCount = 1;
+        stencil_outline_pass.pColorAttachments = NULL;
+        stencil_outline_pass.pDepthStencilAttachment = NULL;
+        stencil_outline_pass.preserveAttachmentCount = 0;
+        stencil_outline_pass.pPreserveAttachments = NULL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         VkAttachmentReference ui_pass_color_attachment_reference {};
         ui_pass_color_attachment_reference.attachment = &backup_even_color_attachment_description - attachments;
         ui_pass_color_attachment_reference.layout     = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
@@ -361,6 +411,7 @@ namespace Pilot
         color_grading_pass_depend_on_tone_mapping_pass.srcAccessMask   = VK_ACCESS_COLOR_ATTACHMENT_WRITE_BIT;
         color_grading_pass_depend_on_tone_mapping_pass.dstAccessMask   = VK_ACCESS_SHADER_READ_BIT;
         color_grading_pass_depend_on_tone_mapping_pass.dependencyFlags = VK_DEPENDENCY_BY_REGION_BIT;
+
 
         VkSubpassDependency& ui_pass_depend_on_color_grading_pass = dependencies[5];
         ui_pass_depend_on_color_grading_pass.srcSubpass           = _main_camera_subpass_color_grading;
@@ -2064,7 +2115,8 @@ namespace Pilot
         setupSwapchainFramebuffers();
     }
 
-    void PMainCameraPass::draw(PColorGradingPass& color_grading_pass,
+    void PMainCameraPass::draw(PStencilOutlinePass stencil_outline_pass,
+        PColorGradingPass& color_grading_pass,
                                PToneMappingPass&  tone_mapping_pass,
                                PUIPass&           ui_pass,
                                PCombineUIPass&    combine_ui_pass,
@@ -2149,6 +2201,14 @@ namespace Pilot
         color_grading_pass.draw();
 
         m_p_vulkan_context->_vkCmdNextSubpass(m_command_info._current_command_buffer, VK_SUBPASS_CONTENTS_INLINE);
+
+
+        // big orange
+        stencil_outline_pass.draw();
+        m_p_vulkan_context->_vkCmdNextSubpass(m_command_info._current_command_buffer, VK_SUBPASS_CONTENTS_INLINE);
+
+
+
 
         VkClearAttachment clear_attachments[1];
         clear_attachments[0].aspectMask                  = VK_IMAGE_ASPECT_COLOR_BIT;

@@ -3,6 +3,7 @@
 #extension GL_GOOGLE_include_directive : enable
 
 #include "constants.h"
+#include "structures.h"
 
 layout (binding = 0) uniform UBO 
 {
@@ -10,6 +11,12 @@ layout (binding = 0) uniform UBO
 	mat4 model;
 	vec4 lightPos;
 } ubo;
+
+
+/*layout(set = 0, binding = 0) readonly buffer _unused_name_perframe
+{
+	mat4  proj_view_matrix;
+};*/
 
 layout(location = 0) in vec3 in_position; 
 layout(location = 1) in vec3 in_normal;

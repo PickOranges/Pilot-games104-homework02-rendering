@@ -109,6 +109,7 @@ namespace Pilot
         _main_camera_subpass_color_grading,
         _main_camera_subpass_ui,
         _main_camera_subpass_combine_ui,
+        _main_camera_subpass_stencil_outline,  // big orange
         _main_camera_subpass_count
     };
 
@@ -151,7 +152,10 @@ namespace Pilot
 
         void initialize();
 
-        void draw(PColorGradingPass& color_grading_pass,
+
+        // big orange
+        void draw(PStencilOutlinePass stencil_outline_pass,            
+            PColorGradingPass& color_grading_pass,
                   PToneMappingPass&  tone_mapping_pass,
                   PUIPass&           ui_pass,
                   PCombineUIPass&    combine_ui_pass,
