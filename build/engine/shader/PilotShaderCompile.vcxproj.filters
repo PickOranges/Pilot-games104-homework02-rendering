@@ -139,6 +139,12 @@
     <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\stencil_solid_frag.h.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\stencil_solid.vert.spv.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\b2c1eba7db723d6b765aa7ffa59847dc\stencil_solid_vert.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
     <CustomBuild Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\build\CMakeFiles\abb2ec92374743f1a2db87dc88df439b\tone_mapping.frag.spv.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
@@ -218,6 +224,9 @@
       <Filter>shaders</Filter>
     </None>
     <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\stencil_solid.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\stencil_solid.vert">
       <Filter>shaders</Filter>
     </None>
     <None Include="C:\Users\cheng\source\repos\HW2\Pilot-games104-homework02-rendering\engine\shader\glsl\tone_mapping.frag">
