@@ -290,11 +290,21 @@ namespace Pilot
 
 
         // big orange
+        VkAttachmentReference stencil_pass_input_attachment_reference{};
+        stencil_pass_input_attachment_reference.attachment =
+            &backup_even_color_attachment_description - attachments;
+        stencil_pass_input_attachment_reference.layout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL;
+
+        VkAttachmentReference stencil_pass_color_attachment_reference{};
+        stencil_pass_color_attachment_reference.attachment =
+            &backup_odd_color_attachment_description - attachments;
+        stencil_pass_color_attachment_reference.layout = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
+
         VkSubpassDescription& stencil_outline_pass = subpasses[_main_camera_subpass_stencil_outline];
         stencil_outline_pass.pipelineBindPoint = VK_PIPELINE_BIND_POINT_GRAPHICS;
-        stencil_outline_pass.inputAttachmentCount = 1;
+        stencil_outline_pass.inputAttachmentCount = 0;
         stencil_outline_pass.pInputAttachments = NULL;
-        stencil_outline_pass.colorAttachmentCount = 1;
+        stencil_outline_pass.colorAttachmentCount = 0;
         stencil_outline_pass.pColorAttachments = NULL;
         stencil_outline_pass.pDepthStencilAttachment = NULL;
         stencil_outline_pass.preserveAttachmentCount = 0;
