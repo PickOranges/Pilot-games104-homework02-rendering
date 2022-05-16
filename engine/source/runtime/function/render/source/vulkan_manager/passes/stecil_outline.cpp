@@ -51,7 +51,21 @@ namespace Pilot {
     { }
 
     void PStencilOutlinePass::setupDescriptorSet()
-    { }
+    {
+        VkDescriptorSetAllocateInfo post_process_global_descriptor_set_alloc_info;
+        post_process_global_descriptor_set_alloc_info.sType = VK_STRUCTURE_TYPE_DESCRIPTOR_SET_ALLOCATE_INFO;
+        post_process_global_descriptor_set_alloc_info.pNext = NULL;
+        post_process_global_descriptor_set_alloc_info.descriptorPool = m_descriptor_pool;
+        post_process_global_descriptor_set_alloc_info.descriptorSetCount = 1;
+        post_process_global_descriptor_set_alloc_info.pSetLayouts = &_descriptor_infos[0].layout;
+
+        if (VK_SUCCESS != vkAllocateDescriptorSets(m_p_vulkan_context->_device,
+            &post_process_global_descriptor_set_alloc_info,
+            &_descriptor_infos[0].descriptor_set))
+        {
+            throw std::runtime_error("allocate post process global descriptor set");
+        }
+    }
 
     void PStencilOutlinePass::updateAfterFramebufferRecreate(VkImageView input_attachment)
     { }
