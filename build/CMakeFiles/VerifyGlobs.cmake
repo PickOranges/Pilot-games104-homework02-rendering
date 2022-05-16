@@ -247,6 +247,7 @@ set(OLD_GLOB
   "C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/shader/glsl/particlebillboard.vert"
   "C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/shader/glsl/post_process.vert"
   "C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/shader/glsl/skybox.vert"
+  "C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/shader/glsl/stencil_scale.vert"
   "C:/Users/cheng/source/repos/HW2/Pilot-games104-homework02-rendering/engine/shader/glsl/stencil_solid.vert"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
