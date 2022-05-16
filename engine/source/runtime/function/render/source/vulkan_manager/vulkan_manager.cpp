@@ -133,7 +133,7 @@ void Pilot::PVulkanManager::renderFrame(class Scene&                scene,
 
 
     // big orange
-    m_main_camera_pass.draw(m_stencil_pass,
+    m_main_camera_pass.draw(/*m_stencil_pass,*/
         m_color_grading_pass, m_tone_mapping_pass, m_ui_pass, m_combine_ui_pass, current_swapchain_image_index, ui_state);
 
     // end command buffer

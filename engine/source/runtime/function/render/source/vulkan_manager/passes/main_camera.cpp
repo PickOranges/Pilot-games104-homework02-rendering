@@ -289,26 +289,26 @@ namespace Pilot
 
 
 
-        // big orange
-        VkAttachmentReference stencil_pass_input_attachment_reference{};
-        stencil_pass_input_attachment_reference.attachment =
-            &backup_even_color_attachment_description - attachments;
-        stencil_pass_input_attachment_reference.layout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL;
+        //// big orange
+        //VkAttachmentReference stencil_pass_input_attachment_reference{};
+        //stencil_pass_input_attachment_reference.attachment =
+        //    &backup_even_color_attachment_description - attachments;
+        //stencil_pass_input_attachment_reference.layout = VK_IMAGE_LAYOUT_SHADER_READ_ONLY_OPTIMAL;
 
-        VkAttachmentReference stencil_pass_color_attachment_reference{};
-        stencil_pass_color_attachment_reference.attachment =
-            &backup_odd_color_attachment_description - attachments;
-        stencil_pass_color_attachment_reference.layout = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
+        //VkAttachmentReference stencil_pass_color_attachment_reference{};
+        //stencil_pass_color_attachment_reference.attachment =
+        //    &backup_odd_color_attachment_description - attachments;
+        //stencil_pass_color_attachment_reference.layout = VK_IMAGE_LAYOUT_COLOR_ATTACHMENT_OPTIMAL;
 
-        VkSubpassDescription& stencil_outline_pass = subpasses[_main_camera_subpass_stencil_outline];
-        stencil_outline_pass.pipelineBindPoint = VK_PIPELINE_BIND_POINT_GRAPHICS;
-        stencil_outline_pass.inputAttachmentCount = 0;
-        stencil_outline_pass.pInputAttachments = NULL;
-        stencil_outline_pass.colorAttachmentCount = 0;
-        stencil_outline_pass.pColorAttachments = NULL;
-        stencil_outline_pass.pDepthStencilAttachment = NULL;
-        stencil_outline_pass.preserveAttachmentCount = 0;
-        stencil_outline_pass.pPreserveAttachments = NULL;
+        //VkSubpassDescription& stencil_outline_pass = subpasses[_main_camera_subpass_stencil_outline];
+        //stencil_outline_pass.pipelineBindPoint = VK_PIPELINE_BIND_POINT_GRAPHICS;
+        //stencil_outline_pass.inputAttachmentCount = 0;
+        //stencil_outline_pass.pInputAttachments = NULL;
+        //stencil_outline_pass.colorAttachmentCount = 0;
+        //stencil_outline_pass.pColorAttachments = NULL;
+        //stencil_outline_pass.pDepthStencilAttachment = NULL;
+        //stencil_outline_pass.preserveAttachmentCount = 0;
+        //stencil_outline_pass.pPreserveAttachments = NULL;
 
 
 
@@ -2125,7 +2125,7 @@ namespace Pilot
         setupSwapchainFramebuffers();
     }
 
-    void PMainCameraPass::draw(PStencilOutlinePass stencil_outline_pass,
+    void PMainCameraPass::draw(/*PStencilOutlinePass stencil_outline_pass,*/
         PColorGradingPass& color_grading_pass,
                                PToneMappingPass&  tone_mapping_pass,
                                PUIPass&           ui_pass,
@@ -2214,8 +2214,8 @@ namespace Pilot
 
 
         // big orange
-        stencil_outline_pass.draw();
-        m_p_vulkan_context->_vkCmdNextSubpass(m_command_info._current_command_buffer, VK_SUBPASS_CONTENTS_INLINE);
+      //  stencil_outline_pass.draw();
+      //  m_p_vulkan_context->_vkCmdNextSubpass(m_command_info._current_command_buffer, VK_SUBPASS_CONTENTS_INLINE);
 
 
 
